@@ -1,0 +1,156 @@
+/* 1. Basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 2. Navigation */
+header {
+    background-color: #222;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: #00adb5;
+}
+
+/* 3. Home */
+#home {
+    min-height: 90vh;
+    padding: 150px 8%;
+    background-color: #f4f4f4;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    color: #00adb5;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #00adb5;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home a:hover {
+    background-color: #00858c;
+}
+
+/* 4. General sections */
+section {
+    padding: 80px 8%;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* 5. About */
+#about {
+    text-align: center;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* 6. Skills */
+#skills {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.skill {
+    display: inline-block;
+    width: 28%;
+    margin: 1%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+    color: #00adb5;
+}
+
+/* 7. Projects */
+.project {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-left: 5px solid #00adb5;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+/* 8. Contact */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px;
+}
+
+/* 9. Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
